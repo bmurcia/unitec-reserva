@@ -3,23 +3,15 @@ import Layout from '../layouts/Layout.astro';
 import Hero from '../components/sections/Hero.astro';
 import Services from '../components/sections/Services.astro';
 import AboutUs from '../components/sections/AboutUs.astro';
-import Features from '../components/sections/Auditorio.astro';
 import CTA from '../components/sections/CTA.astro';
 import Brands from '../components/sections/Brands.astro';
-import Auditorio from '../components/sections/Auditorio.astro';
+import Auditorio from '../pages/auditorio.astro';
 ---
 
 <Layout title="Reserva de Espacios">
-	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
-		<Hero/>
-		<Brands/>
-		<Auditorio/>
-		<!--
-		<Services/>
-		<AboutUs/>
-		
-		<CTA/>
-	-->
-
+	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden" >
+		<Hero />
+		<Brands />
 	</main>
+	
 </Layout>
